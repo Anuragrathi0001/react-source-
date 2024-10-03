@@ -1,6 +1,8 @@
 // import Alert from './Alert';
 import './App.css';
+// import Profile2 from './Profile2';
 import Profile from './Profile';
+
 // import Userdash from './Userdash';
 // import MapMethod from './ArrayMethod/MapMethod';
 // import Maptable from './ArrayMethod/Maptable';
@@ -73,7 +75,8 @@ function App() {
             {/* <MapMethod/> */}
             {/* <Maptable/> */}
             {/* <Userdash /> */}
-            <Profile/>
+             <Profile/> 
+            
 
         </div>
     );
