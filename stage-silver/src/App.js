@@ -1,8 +1,7 @@
 // import Alert from './Alert';
-import './App.css';
+// import './App.css';
 // import Profile2 from './Profile2';
-import Profile from './Profile';
-
+// import Profile from './Profile';
 // import Userdash from './Userdash';
 // import MapMethod from './ArrayMethod/MapMethod';
 // import Maptable from './ArrayMethod/Maptable';
@@ -20,12 +19,9 @@ import Profile from './Profile';
 // import HandleForm from './form/HandleForm';
 // import ShowToggleHide from './ShowToggleHide/ShowToggleHide';
 // import Inputvalue from './State/form/Inputvalue';
-
 // import Propsinclass from './Props/Propsinclass';
-
 // import Shit from './Shit';
 // import Shit2 from './Shit2';
-
 // import Data from './Props/Data';
 // import MultiData from './Props/MultiData';
 // import Pops from './Props/Pops';
@@ -33,7 +29,14 @@ import Profile from './Profile';
 // import Changecontent from './State/Changecontent';
 // import Counter from './State/Counter';
 
+// import Reusable from "./ArrayMethod/Reusable";
+import Newhooks from "./Hooks/Newhooks";
+
+
 function App() {
+//     const handleclick = () => {
+//         console.log("btn clicked")
+//     }
     // const Bigdata = [
     //   {
     //     id: 1,
@@ -70,12 +73,15 @@ function App() {
             {/* <ComponentDidMount/> */}
             {/* <ShoulComponentUpdate/> */}
             {/* <UseEffect/> */}
+            <Newhooks/>
             {/* <ConditionalHooks/> */}
             {/* <Bootstarap/> */}
-            {/* <MapMethod/> */}
+            {/*<MapMethod/>*/}  
             {/* <Maptable/> */}
             {/* <Userdash /> */}
-             <Profile/> 
+            {/* <Profile/>  */}
+            {/* <Reusable text="home" click={handleclick} /> */}
+
             
 
         </div>
