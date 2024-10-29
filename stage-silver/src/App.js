@@ -1,4 +1,5 @@
 // import Alert from './Alert';
+import Todolist from "./components/Todolist";
 // import './App.css';
 // import Profile2 from './Profile2';
 // import Profile from './Profile';
@@ -30,14 +31,14 @@
 // import Counter from './State/Counter';
 
 // import Reusable from "./ArrayMethod/Reusable";
-import Newhooks from "./Hooks/Newhooks";
+// import Newhooks from "./Hooks/Newhooks";
 // import UserDashboard from "./Test";
 
 
 function App() {
-//     const handleclick = () => {
-//         console.log("btn clicked")
-//     }
+    //     const handleclick = () => {
+    //         console.log("btn clicked")
+    //     }
     // const Bigdata = [
     //   {
     //     id: 1,
@@ -74,16 +75,16 @@ function App() {
             {/* <ComponentDidMount/> */}
             {/* <ShoulComponentUpdate/> */}
             {/* <UseEffect/> */}
-            <Newhooks/>
-            {/* <ConditionalHooks/> */}
+            {/*  <Newhooks/>
+           <ConditionalHooks/> */}
             {/* <Bootstarap/> */}
-            {/*<MapMethod/>*/}  
+            {/*<MapMethod/>*/}
             {/* <Maptable/> */}
             {/* <Userdash /> */}
             {/* <Profile/>  */}
             {/* <Reusable text="home" click={handleclick} /> */}
-{/* <UserDashboard/> */}
-            
+            {/* <UserDashboard/> */}
+            <Todolist/>
 
         </div>
     );
